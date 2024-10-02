@@ -1,3 +1,5 @@
+# Parte 2
+
 # Accounts and States
 
 Ethereum é uma maquina de estados, cada conta vai ter um estado.
@@ -8,14 +10,14 @@ Ethereum é uma maquina de estados, cada conta vai ter um estado.
 
 **O que significava ter bitcoins?**
 
-significa ter varias transações que alguem fez direionadas a minha chave publica, e a soma de todas essas transações que eu não gastei é o meu saldo.
+Significa ter varias transações que alguem fez direionadas a minha chave publica, e a soma de todas essas transações que eu não gastei é o meu saldo.
 
 
 **No Ethereum é diferente:**
 
-É mais similar a uma conta em um banco, o usuário possui algo mais similar a uma conta em que no State aparece a sua quantidade de Ethereum, alem de outras coisas, a cada novo bloco com novas transações esse State é atualizado, apenas caso tenha alguma transação no bloco com uma relação com o do usuário.
+É mais similar a uma conta em um banco, o usuário possui algo parecido com conta em que no State aparece a sua quantidade de Ethereum, alem de outras coisas, a cada novo bloco com novas transações esse State é atualizado, apenas caso tenha alguma transação no bloco com uma relação com o do usuário.
 
-Os States de  todas as Accounts ficam armazenados fora da blockchain, em uma estrutura de dados chamada State tree, na blockchain ficam as transações que modificam esses states, assim quem possui um no do blockchain Ethereum também possui um State tree que fica constante mente sendo atualizado.
+Os States de  todas as Accounts ficam armazenados fora da blockchain, em uma estrutura de dados chamada State tree, na blockchain ficam as transações que modificam esses states, assim quem possui um no do blockchain Ethereum também possui um State tree que fica constantemente sendo atualizado.
 
 
 **Por que States?**
@@ -27,13 +29,15 @@ Os States de  todas as Accounts ficam armazenados fora da blockchain, em uma est
 
 # Ethereum Virtual Machine (EVM):
 
-blocos diferentes
+Blocos diferentes
 
-no caso do Ethereum as transações não são apenas a respeito de moedas destruidas e criadas, no Ethereum as trnasações contem um código de computador, o Ethereum é turing completo.
+No caso do Ethereum as transações não são apenas a respeito de moedas destruidas e criadas, no Ethereum as transações contem um código de computador, o Ethereum é turing completo, o que significa que ele pode executar qualquer programa de computador, desde que tenha tempo e recursos suficientes.
 
 Todos os nós da rede Ethereum executam todo o código em todos os blocos, assim eles sempre ficam com os States de todas as accounts atualizados.
 
-Isso pode ser um problema pois todos tem que rodar esso codigo independente de onde, isso pode dar algum problema, algo como tnetar rodar um jogo do NES no SNES ou mega drive, isso não funciona, assim o código dos blocos do Ethereum são feitos para rodar no EVM, isso possibilita eles rodarem nas mesmas condições.
+Isso pode ser um problema, pois todos tem que rodar esso codigo independente de onde, isso pode gerar um problema, algo como tentar rodar um jogo do NES no SNES ou mega drive, isso não funciona, assim o código dos blocos do Ethereum são feitos para rodar no EVM, isso possibilita eles rodarem nas mesmas condições.
+
+obs: Esse EVM seria similar a um Container no Docker. 
 
 **Ethereum Virtual Machine:**
 
@@ -54,7 +58,7 @@ Isso pode ser um problema pois todos tem que rodar esso codigo independente de o
 
 **GAS:**
 
-- Qualquer trnasação tem um custo em GAS.
+- Qualquer transação tem um custo em GAS.
 - Mais complexo -> Mais caro.
 - Toda operação será executada até:
   - Finalizar normalmente.
@@ -62,8 +66,6 @@ Isso pode ser um problema pois todos tem que rodar esso codigo independente de o
   - Usar todo o GAS enviado na transação
 -  Para uma mesma operação, o custo em GAS é sempre o mesmo.
 -  O preço do GAS varia em função da demanda.
-
-
 - Impede o DoS(pois o ataque vai custar caro).
 - Evita loops infinitos.
 - Incentiva eficiência.

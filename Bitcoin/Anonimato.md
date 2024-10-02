@@ -1,3 +1,5 @@
+# Parte 8
+
 # anonimato
 
 Andreas Antonopoulos
@@ -12,13 +14,11 @@ Assim o seu anonimato é alto caso siga as precauções corretas, mas caso saia 
 
 **Anônimo vs Pseudônimo:**
 
-- Bitcoin ID - CP -> Pseudônimo
-- Mas transações rastreáveis.
-- Anonimato: Pseudônimo + Irrastriável(interações do user com o sistema não podem ser conectadas umas com as outras).
+- Bitcoin ID - CP(chave publica) -> Pseudônimo
+- Transações rastreáveis.
+- Anonimato: Pseudônimo + Irrastriável(interações do usuario com o sistema não podem ser conectadas umas com as outras).
 
-Dica: utilizar múltiplas chaves públicas
-
-*De-Animazando bitcoin:* Muitos serviçoes baseados em bitcoin requerem sua identidade ou informações a seu respeito, assim eles sabem quem é.(exchanges, carteiras, compras, entrada e saída). É muito dificil entrar e sair do mercado de bitcoins sem deixar rastos.
+Muitos serviçoes baseados em bitcoin requerem sua identidade ou informações a seu respeito, assim eles sabem quem é.(exchanges, carteiras, compras, entrada e saída). É muito dificil entrar e sair do mercado de bitcoins sem deixar rastos.
 
 - Meios indiretos: 
   - Hábitos de uso

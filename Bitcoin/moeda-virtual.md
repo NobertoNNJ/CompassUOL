@@ -1,3 +1,5 @@
+# Deletar
+
 # criando uma moeda digital
 
 
@@ -14,7 +16,7 @@
 - As moedas podem ter qualquer valor;
 - Novas moedas são criadas e destruidas;
 
-*obs simplificada:* transações não movem moedas de x para y, elas destroem as moedas de x é criam novas moedas para y.(isso funciona nessa moeda ficticia, no bitcoin é mais complexo para se "criar" moedas).
+*obs* simplificada: transações não movem moedas de x para y, elas destroem as moedas de x é criam novas moedas para y.(isso funciona nessa moeda ficticia, no bitcoin é mais complexo para se "criar" moedas).
 
 **Transações:** todas as transações são identificadas.
 

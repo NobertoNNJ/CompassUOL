@@ -1,8 +1,10 @@
+# Parte 3
+
 # Smart Contracts:
 
 Em teoria os Smart contracts não possuem limitações.
 
-Nós Smart Contracts tudo programado para acontecer vai acontecer sem exceção, caso realize uma transação com um smart contract, ao realizar a transação o smart contract vai entregar o que ele foi programado para fazer após a transação ser realizada
+Nós Smart Contracts tudo que foi programado para acontecer vai acontecer sem exceção, caso realize uma transação com um smart contract, ao realizar a transação o smart contract vai entregar o que ele foi programado para fazer após a transação ser realizada.
 
 **Smart Contracts:**
 
@@ -42,4 +44,4 @@ Descentralize autonomous organization (DAO):
 - Recebia fundos de usuários em ETH e emetia tokens que davam poder de voto.
 - Investia os fundos adquiridos em projetos ao redor do globo.
 
-devido a um bug hackers invadiram e roubaram os usuarios, os devs do Ethereum realizarm um hard fork em que descosidereavel esse roubo, des considerando os blocos que realizaram ele, isso gerou polemica devido a quebra da imutabilidade.
+Devido a um bug na DAO hackers invadiram e roubaram os usuarios, os devs do Ethereum realizarm um hard fork em que descosideraram esse roubo, desconsiderando os blocos que realizaram ele, isso gerou polemica devido a quebra da imutabilidade do blockchain.

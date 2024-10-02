@@ -1,13 +1,13 @@
-# Ethereum
+# Parte 1
 
-**Por que Ethereum**
+# Ethereum
 
 - Segundo maior cap rate(valor monetario em circulação);
 - Desenvolvedores muito ativos;
-- Conceitualmente diferente;
+- Conceitualmente diferente do bitcoin;
 - Ambicioso;
 
-Possui as caracteristicas do bitcoin e mais,ele também possue a capacidade de processamento, é possivel rodar programas de computador dentro da rede de Ethereum, o unico limite do que pode rodar nessa rede é a imaginação de quem está tanteando rodar.
+Possui as caracteristicas do bitcoin e mais,ele também possui a capacidade de processamento, é possivel rodar programas de computador dentro da rede de Ethereum, o unico limite do que pode rodar nessa rede é a imaginação.
 
 *Além das funções do bitcoin:*
 
@@ -28,7 +28,7 @@ Possui as caracteristicas do bitcoin e mais,ele também possue a capacidade de p
 - Descentralização
 - Consenso
 - Diversas Aplicações possíveis
-
+---
 - Possui uma moeda nativa: Ether.
 - 1 Ether = 1E+18Wei (pode ser dividido em um quintilhão de wei).
 - Mineração memory hard (ao inves da capacidade de processamento é a capacidade de memoria).
@@ -44,6 +44,5 @@ Possui as caracteristicas do bitcoin e mais,ele também possue a capacidade de p
 - Opera em conjunto com outors agentes importantes e com core developers.
 - Consenso guiado e subtraction mindset.
 - "Ditadura Benevolente".
-
 - Uma "Blockchain Programável".
 - Qualquer algoritomo pode ser executado na rede Ethereum(Turing completo)(Ethereum virtual machine).
